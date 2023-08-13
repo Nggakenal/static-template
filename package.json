@@ -26,3 +26,463 @@
     "serve": "^11.2.0"
   }
 }
+{
+  "doctype": "html",
+  "html": {
+    "lang": "en",
+    "head": {
+      "meta": [
+        {
+          "charset": "UTF-8"
+        },
+        {
+          "http-equiv": "X-UA-Compatible",
+          "content": "IE=edge"
+        },
+        {
+          "name": "viewport",
+          "content": "width=device-width, initial-scale=1.0"
+        }
+      ],
+      "title": "Personal Portfolio Website",
+      "link": [
+        {
+          "rel": "stylesheet",
+          "href": "style.css"
+        }
+      ],
+      "script": [
+        {
+          "src": "https://kit.fontawesome.com/e674bba739.js",
+          "crossorigin": "anonymous"
+        }
+      ]
+    },
+    "body": {
+      "div": [
+        {
+          "id": "header",
+          "div": {
+            "class": "container",
+            "nav": {
+              "img": {
+                "src": "https://i.postimg.cc/T3crTk7d/images-removebg-preview.png",
+                "class": "logo"
+              },
+              "ul": {
+                "li": [
+                  {
+                    "a": {
+                      "href": "#",
+                      "content": "Home"
+                    }
+                  },
+                  {
+                    "a": {
+                      "href": "#",
+                      "content": "About"
+                    }
+                  },
+                  {
+                    "a": {
+                      "href": "#",
+                      "content": "Services"
+                    }
+                  },
+                  {
+                    "a": {
+                      "href": "#",
+                      "content": "Portfolio"
+                    }
+                  },
+                  {
+                    "a": {
+                      "href": "#",
+                      "content": "Contact"
+                    }
+                  }
+                ],
+                "i": {
+                  "class": "fas fa-times"
+                }
+              },
+              "i": {
+                "class": "fas fa-bars"
+              }
+            },
+            "div": {
+              "class": "header-text",
+              "p": "Manusia ala kadarnya",
+              "h1": {
+                "content": "Halo, saya",
+                "span": "Nggak",
+                "br": null,
+                "content2": "tau dari Dunia"
+              }
+            }
+          }
+        },
+        {
+          "div": {
+            "class": "container",
+            "div": {
+              "class": "row",
+              "div": [
+                {
+                  "class": "about-col-1",
+                  "img": {
+                    "src": "https://i.postimg.cc/cJdQg81v/Screenshot-2023-02-24-18-00-29-483-edit-com-facebook-katana.jpg"
+                  }
+                },
+                {
+                  "class": "about-col-2",
+                  "div": {
+                    "id": "About",
+                    "h1": {
+                      "class": "sub-title",
+                      "content": "Introduksi"
+                    },
+                    "p": "Cuma manusia biasa yang lahir di Indonesia dengan agama Islam dengan pemahaman akan Allah tuhan yang esa dan nabi yang paling utama sekaligus sebagai penutup para nabi. Yaitu nabi Muhammad Saw.",
+                    "div": {
+                      "class": "tab-titles",
+                      "p": [
+                        {
+                          "class": "tab-links active-link",
+                          "onclick": "openTab('skills')",
+                          "content": "Keahlian"
+                        },
+                        {
+                          "class": "tab-links",
+                          "onclick": "openTab('experience')",
+                          "content": "Pengalaman"
+                        },
+                        {
+                          "class": "tab-links",
+                          "onclick": "openTab('education')",
+                          "content": "Education"
+                        }
+                      ]
+                    },
+                    "div": [
+                      {
+                        "class": "tab-contents active-tab",
+                        "id": "skills",
+                        "ul": {
+                          "li": [
+                            {
+                              "span": "Berharap",
+                              "br": null,
+                              "content": "Selalu berharap akan hal yang sulit terjadi"
+                            },
+                            {
+                              "span": "Berimajinasi",
+                              "br": null,
+                              "content": "Sering membayangkan dia yang sudah pergi"
+                            },
+                            {
+                              "span": "Menjauhi Dosa",
+                              "br": null,
+                              "content": "Sering tidur supaya tidak bermaksiat"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "class": "tab-contents",
+                        "id": "experience",
+                        "ul": {
+                          "li": [
+                            {
+                              "span": "2021 - Current",
+                              "br": null,
+                              "content": "UI/UX Design training at ET Institute"
+                            },
+                            {
+                              "span": "2019-2021",
+                              "br": null,
+                              "content": "Web app Development"
+                            },
+                            {
+                              "span": "2017-2019",
+                              "br": null,
+                              "content": "UI/UX Design Executive at Coin Digital Ltd."
+                            },
+                            {
+                              "span": "2017-2019",
+                              "br": null,
+                              "content": "Internship at eKart ecommerce."
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "class": "tab-contents",
+                        "id": "education",
+                        "ul": {
+                          "li": [
+                            {
+                              "span": "2016",
+                              "br": null,
+                              "content": "UI/UX Design training at ET Institute"
+                            },
+                            {
+                              "span": "2016 Development",
+                              "br": null,
+                              "content": "MBA from MIT Bangalore"
+                            },
+                            {
+                              "span": "2014",
+                              "br": null,
+                              "content": "BBA from ISM Bangalore"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "div": {
+            "id": "services",
+            "div": {
+              "class": "container",
+              "h1": {
+                "class": "sub-title",
+                "content": "My Services"
+              },
+              "div": {
+                "class": "services-list",
+                "div": [
+                  {
+                    "i": {
+                      "class": "fa-brands fa-android"
+                    },
+                    "h2": "App Development",
+                    "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi officia, alias vitae fugiat fuga exercitationem.",
+                    "a": {
+                      "href": "#",
+                      "content": "Learn more"
+                    }
+                  },
+                  {
+                    "i": {
+                      "class": "fa-solid fa-code"
+                    },
+                    "h2": "Web Development",
+                    "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi officia, alias vitae fugiat fuga exercitationem.",
+                    "a": {
+                      "href": "#",
+                      "content": "Learn more"
+                    }
+                  },
+                  {
+                    "i": {
+                      "class": "fa-solid fa-crop-simple"
+                    },
+                    "h2": "UI/UX Design",
+                    "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam nam sit. Soluta quasi officia, alias vitae fugiat fuga exercitationem.",
+                    "a": {
+                      "href": "#",
+                      "content": "Learn more"
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "div": {
+            "id": "portfolio",
+            "div": {
+              "class": "container",
+              "h1": {
+                "class": "sub-title",
+                "content": "My Works"
+              },
+              "div": {
+                "class": "work-list",
+                "div": [
+                  {
+                    "class": "work",
+                    "img": {
+                      "src": "images/work-1.png",
+                      "alt": ""
+                    },
+                    "div": {
+                      "class": "layer",
+                      "h2": "Social Media App",
+                      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit.",
+                      "a": {
+                        "href": "#",
+                        "i": {
+                          "class": "fas fa-external-link-alt"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "class": "work",
+                    "img": {
+                      "src": "images/work-2.png",
+                      "alt": ""
+                    },
+                    "div": {
+                      "class": "layer",
+                      "h2": "Music App",
+                      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit.",
+                      "a": {
+                        "href": "#",
+                        "i": {
+                          "class": "fas fa-external-link-alt"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "class": "work",
+                    "img": {
+                      "src": "images/work-3.png",
+                      "alt": ""
+                    },
+                    "div": {
+                      "class": "layer",
+                      "h2": "Online Shopping App",
+                      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quam facere quibusdam deserunt dolore vero. Incidunt ea nihil sint. Velit.",
+                      "a": {
+                        "href": "#",
+                        "i": {
+                          "class": "fas fa-external-link-alt"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "a": {
+                "href": "",
+                "class": "btn",
+                "content": "See more"
+              }
+            }
+          }
+        },
+        {
+          "div": {
+            "id": "contact",
+            "div": {
+              "class": "container",
+              "div": {
+                "class": "row",
+                "div": [
+                  {
+                    "class": "contact-left",
+                    "h1": {
+                      "class": "sub-title",
+                      "content": "Contact Me"
+                    },
+                    "p": [
+                      {
+                        "i": {
+                          "class": "fas fa-paper-plane"
+                        },
+                        "content": "t.me/nggakena1"
+                      },
+                      {
+                        "i": {
+                          "class": "fas fa-phone-square-alt"
+                        },
+                        "content": "089675177778"
+                      }
+                    ],
+                    "div": {
+                      "class": "social-icons",
+                      "a": [
+                        {
+                          "href": "https://www.facebook.com/profile.php?id=100083151382702&mibextid=ZbWKwL",
+                          "i": {
+                            "class": "fab fa-facebook"
+                          }
+                        },
+                        {
+                          "href": "#",
+                          "i": {
+                            "class": "fab fa-twitter-square"
+                          }
+                        },
+                        {
+                          "href": "https://instagram.com/_nggakenal_?igshid=ZDc4ODBmNjlmNQ==",
+                          "i": {
+                            "class": "fab fa-instagram"
+                          }
+                        },
+                        {
+                          "href": "#",
+                          "i": {
+                            "class": "fab fa-linkedin"
+                          }
+                        }
+                      ]
+                    },
+                    "a": {
+                      "href": "images/my-cv.pdf",
+                      "download": true,
+                      "class": "btn btn2",
+                      "content": "Download CV"
+                    }
+                  },
+                  {
+                    "class": "contact-right",
+                    "form": {
+                      "input": [
+                        {
+                          "type": "text",
+                          "name": "Name",
+                          "placeholder": "Your Name",
+                          "required": true
+                        },
+                        {
+                          "type": "email",
+                          "name": "Email",
+                          "placeholder": "Your Email",
+                          "required": true
+                        }
+                      ],
+                      "textarea": {
+                        "name": "Message",
+                        "rows": "6",
+                        "placeholder": "Your Message"
+                      },
+                      "button": {
+                        "type": "submit",
+                        "class": "btn btn3",
+                        "content": "submit"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "div": {
+            "class": "copyright",
+            "p": "copyright @ Nggakenal. Made with",
+            "i": {
+              "class": "fas fa-heart"
+            },
+            "content": "by Nggakenal"
+          }
+        }
+      ],
+      "script": {
+        "content": "\n           var tabLinks = document.getElementsByClassName('tab-links');\n           var tabContents = document.getElementsByClassName('tab-contents');\n\n           function openTab(tabName) {\n               for (tabLink of tabLinks) {\n                   tabLink.classList.remove('active-link');\n               }\n               for (tabContent of tabContents) {\n                   tabContent.classList.remove('active-tab');\n               }\n               event.currentTarget.classList.add('active-link');\n               document.getElementById(tabName).classList.add('active-tab');\n           }\n\n           // JavaScript for handling the mobile navigation menu\n           document.querySelector('.fas.fa-bars').addEventListener('click', function () {\n               document.querySelector('nav ul').classList.toggle('show');\n           });\n\n           document.querySelector('.fas.fa-times').addEventListener('click', function () {\n               document.querySelector('nav ul').classList.remove('show');\n           });\n\n       "
+      }
+    }
+  }
+                  }
